@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" href = "./home.css">
+    <title>EL HOTEL</title>
+</head>
+<body>
+    
+        <!--Navigation bar-->
+        <div id = "topnav">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#">ABOUT</a>
+                  <a href="#">HOTEL AND SUITES</a>
+                  <a href="#">SERENITY SPA</a>
+                  <a href="#">DINING</a>
+                  <a href="#">CHILDREN'S WONDERLAND</a>
+                  <a href="#">BAR AND RESTAURANT</a>
+                  <a href="#">CONTACT</a>
+                </div>
+              </div>
+              
+              <div class = "asideNav">
+              <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; MENU</span>
+              <div>
+                  <a class = "title" href = "#" style = "text-align: center;color:brown;">EL HOTEL</a>
+                </div>
+                  <div>
+              <div>
+              <i class="fa fa-phone" style="font-size:24px">+256 000 0000</i>
+            </div>
+            <div>
+                <button >BOOK NOW</button>
+              <button>ENGLISH</button>
+            </div>
+            
+            </div>
+            </div>
+        
+            </div>
+
+
+        <!--Video content-->
+        
+<div id = "videoContent">
+    <video  id = "openingVideo" loop>
+        <source  src = "https://player.vimeo.com/external/384862682.hd.mp4?s=dea0ec7879ead89ff414482b1a9aa604d641462f&profile_id=174#t=1">
+        </video>
+ <button id = "vol2"><i class='fas fa-volume-mute'></i></button>
+            <button id = "vol1" onclick="muteIt()"><i class='fas fa-volume-down'></i></button>
+            <button id = "do1" onclick = "pauseIt()" ><i class='fas fa-pause'></i></button>
+        </div>
+<!--Other content-->
+<div id = "about"  data-aos="fade-up-right"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <div class = "about_words">
+        <h3>El hotel</h3>
+        <p>Tell us about who or what El hotel is.Can involve when it started,liscences,registration and all others.
+        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+       Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum  
+        </p>
+        <p>
+       Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+       
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+    <div class = "about_images">
+    <img class = "img1" src = "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWx8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    <img  class = "img2" src = "https://images.unsplash.com/photo-1594182957126-9e4ec2ef74ae?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjBsb2JieXxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+</div>
+    
+</div>
+
+<!--Accomodations-->
+<div id = accomodations  data-aos="fade-up"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <img src = "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwYmVkcm9vbXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    <div class = "accom_words">
+        <h3>Accomodations</h3>
+        <p>Checkout the luxurious amenities that suit you</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+</div>
+
+<!--Camp fire-->
+<div id = "chill">
+    <div class = "chill_words" data-aos="fade-up-left"
+    data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+        <h3>Take a breathe</h3>
+        <p>There is no better way to enjoy.....</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+    <div class = "chill_Images" >
+<img class = "img1" src = "https://images.unsplash.com/photo-1553524789-59ac0ed1d2d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTl8fGhvdGVsJTIwc3dpbW1pbmclMjBwb29sfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+<img class = "img2" src = "https://images.unsplash.com/photo-1565285603086-8eb440772c47?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8Ym9uZmlyZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+<img src = "https://images.unsplash.com/photo-1579560977410-97289ddc81b4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fGN1bHR1cmV8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+<img src = "https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8Y3VsdHVyZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+
+    </div>
+</div>
+
+<!--food and dining-->
+<div id = "dine">
+<div class = "dine_images"  data-aos="flip-right"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <img src = "https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfDF8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+</div>
+    <div class = "dine_words"
+    data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+        <h3>What is life without great food?</h3>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+</div>
+
+<!--marriage-->
+<div id = "marriage"  data-aos="zoom-in"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <div class = "m_words">
+        <h3>Say "I do" at El hotel</h3>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+    <div class = "m_images">
+    <img class = "img1" style = "height: 500px;" src = "https://images.unsplash.com/photo-1519657814741-5781d2018f70?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8bWFycmlhZ2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    <img class = "img2" src = "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlY2VwdGlvbiUyMGFpc2xlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+</div>
+   
+</div>
+
+<!--meetings-->
+<div id = "meetUp" data-aos="zoom-out"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <div class = "meet_images">
+    <img src = "https://images.unsplash.com/photo-1590660116447-3e58e29c2e29?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lZXRpbmclMjByb29tfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+</div>
+    <div class = "meet_words"
+    data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+        <h3>Let's meet</h3>
+        <p>Don't have time to plan......</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+</div>
+
+<!--play-->
+<div id = "play"  data-aos="flip-up"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <div class = "play_words">
+        <h3>Work with no play...</h3>
+        <p>Shake off that fatigue, have some fun</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            Lorem ipsum Lorem ipsumLorem ipsum
+        </p>
+        <button>LEARN MORE</button>
+    </div>
+    <div class = "play_images">
+        <div class = "pp">
+        <img src = "https://images.unsplash.com/photo-1514998885429-354290f72fb2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA3fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src = "https://images.unsplash.com/photo-1520877745935-616158eb7fcc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHdvcmslMjBvdXR8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src = "https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8c3BhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src = "https://images.unsplash.com/photo-1601758260679-259d3f79c9a1?ixid=MXwxMjA3fDF8MHxzZWFyY2h8MjF8fHBsYXl8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    </div>
+</div>
+</div>
+
+<!--FIND MORE-->
+<div id = "enough" data-aos="zoom-out"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
+    <h3>CAN'T GET ENOUGH OF US</h3>
+    <div class = "enough_images">
+        <img src = "https://images.unsplash.com/photo-1586491157403-f3407cb8ff5b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHRvdXJpc218ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src = "https://images.unsplash.com/photo-1533222181282-c10231f71764?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzd8fGRpbmluZ3xlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src = "https://images.unsplash.com/photo-1599425841917-a6786245c3c5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGJvbmZpcmV8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src = "https://images.unsplash.com/photo-1562292657-2dc74a21b520?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGFpbnRpbmd8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    </div>
+</div>
+
+<!--location-->
+<div id = "location">
+    <h3>FIND US</h3>
+    <img style = "width:100%;" src = "/images/el.JPG">
+</div>
+
+<!--footer-->
+<div id = "footer_section">
+    <div class = "two_footer">
+        <h4>El Hotel</h4>
+        <p>Kampala Kampala/p>
+        <p>Toll free : 245 47282 888</p>
+        <p>Phone :+256 000 0000 </p>
+        <h4>SUBSCRIBE TO NEWSLETTER</h4>
+        <input type = "email" placeholder="Enter your email address">
+        <button>Subscribe</button>
+        <div>
+            <h4>GET SOCIAL WITH US</h4>
+            <i class='fab fa-instagram' style='font-size:24px'></i>
+            <i class='fab fa-facebook-f' style='font-size:24px'></i>
+            <i class='fab fa-pinterest-p' style='font-size:24px'></i>
+            <i class='fab fa-linkedin-in' style='font-size:24px'></i>
+            <i class='fab fa-twitter' style='font-size:24px'></i>
+            <i class='fab fa-youtube' style='font-size:24px'></i>
+        </div>
+    </div class = "others">
+    <p>GIFT CERTIFICATES</p>
+    <p>CAREERS AT EL HOTEL</p>
+    <p>CONTACT US</p>
+    <p>PRESS ROOM</p>
+    <p>SITE MAP</p>
+    <p>PRIVATE POLICY AND SECURITY</p>
+    <p>FAQs</p>
+    
+</div>
+
+
+
+<script src = "../scripts/home.js"></script>
+
+<!--div for container fluid-->
+    <!-- </div> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        
+
+    });
+    </script>
+</body>
+</html>
